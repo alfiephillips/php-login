@@ -2,7 +2,7 @@
 
 ## Technologies to have a look at:
 
-- [Algolia](https://www.algolia.com/)
+- [Stripe and Stripe Hooks/Events](https://stripe.com)
 - [Firebase](https://firebase.google.com/)
 - [Gutenberg](https://wordpress.org/gutenberg/)
 - [Wordpress tools such as Wordpress Block Editor](https://wordpress.org/documentation/article/wordpress-block-editor/)
