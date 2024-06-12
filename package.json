@@ -1,0 +1,22 @@
+{
+  "name": "php-login",
+  "version": "1.0.0",
+  "description": "Management of styling for php-login using tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfiephillips/php-login.git"
+  },
+  "author": "Alfie Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfiephillips/php-login/issues"
+  },
+  "homepage": "https://github.com/alfiephillips/php-login",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

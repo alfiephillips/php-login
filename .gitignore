@@ -1,6 +1,9 @@
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
+# Tailwind
+/dist
+
 # Core
 #
 # Note: if you want to stage/commit WP core files
@@ -33,7 +36,8 @@ wp-config.php
 *.log
 
 # htaccess
-/.htaccess
+
+node_modules
 
 # All plugins
 #
