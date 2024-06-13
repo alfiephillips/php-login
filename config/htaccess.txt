@@ -18,6 +18,3 @@ RewriteRule ^php-login/?$ src/pages/index.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^php-login/(.*)$ src/pages/$1.php [L]
-RewriteRule ^auth/login$ src/pages/auth/login.php [L]
-RewriteRule ^auth/register$ src/pages/auth/register.php [L]
-RewriteRule ^index$ src/pages/index.php [L]
