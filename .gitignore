@@ -4,6 +4,9 @@
 # Tailwind
 /dist
 
+# Environment Management
+/config/*.env
+
 # Core
 #
 # Note: if you want to stage/commit WP core files

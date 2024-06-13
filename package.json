@@ -4,7 +4,7 @@
   "description": "Management of styling for php-login using tailwindcss",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/styles/input.css -o ./src/dist/output.css --watch"
   },
   "repository": {
     "type": "git",
