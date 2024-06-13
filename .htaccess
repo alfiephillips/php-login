@@ -1,0 +1,26 @@
+RewriteEngine On
+
+# Set the default directory index file
+DirectoryIndex src/pages/index.php
+
+# Disable directory listing
+Options -Indexes
+
+# Serve existing files and directories directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirect /php-login to /src/pages/index.php
+RewriteRule ^php-login/?$ src/pages/index.php [L]
+
+# Redirect /php-login/login to /src/pages/auth/login.php
+RewriteRule ^php-login/login/?$ src/pages/auth/login.php [L]
+
+# Redirect /php-login/register to /src/pages/auth/register.php
+RewriteRule ^php-login/register/?$ src/pages/auth/register.php [L]
+
+# Add .php extension for any other /php-login paths if it doesn't exist and if the file isn't found
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^php-login/(.*)$ src/pages/$1.php [L]
