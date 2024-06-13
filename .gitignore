@@ -2,10 +2,13 @@
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
 # Tailwind
-/dist
+/src/dist/*.css
+
 
 # Environment Management
 /config/*.env
+
+
 
 # Core
 #
