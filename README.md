@@ -14,3 +14,5 @@
 - Look into 'sprite' images, one larger image featuring smaller components to avoid re-rendering multiple images; less stress on processing and bandwith. [Look here](https://css-tricks.com/css-sprites/)
 
 - Write up all respective 'README' for documentation purposes.
+
+- Test if i can access this repo with my macbook
